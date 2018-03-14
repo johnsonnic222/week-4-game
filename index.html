@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <title>Crystal Collector</title>
+</head>
+
+<body>
+    <div class="wrapper"></div>
+    <div class="container">
+        <div class="jumbotron" style="background-color: magenta; color:whitesmoke;">
+            <div class=" containier ">
+                <h1 class="text-center ">
+                    <strong>Crystal Collector</strong>
+                </h1>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Instructions</h3>
+                    </div>
+
+                    <div class="panel-body">
+                        1. You will be given a random number at the start of the game.
+                        <br>
+                        <br> 2. There are four crystals below. By clicking on a crystal, you will add a specific amount of points
+                        to your total score.
+                        <br>
+                        <br> 3. You win the game by matching your total score to the random number. You lose the game if your
+                        total score goes above the random number.
+                        <br>
+                        <br> 4. The value of each crystal is hidden from you until you click on it.
+                        <br>
+                        <br> 5. Each time when the game starts, the game will change the values of each crystal.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Number to Match</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="text-center"> <span id= "randomNumber"></span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Your Number</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="text-center"><span id="finalScore"></span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center"> Wins</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="text-center"><span id= "numberWins"></span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Losses</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="text-center"><span id= "numberLosses"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Crystals</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <img src="http://i63.tinypic.com/ivfpt3.png" id="pink">
+                        <img src="http://i68.tinypic.com/2myu5o7.jpg" id="blue">
+                        <img src="http://i64.tinypic.com/2s8lkdt.jpg" id="green">
+                        <img src="http://i63.tinypic.com/wrz5a8.jpg" id="purple">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+
+<script src="new.js"></script>
+</body>
+
+</html>
